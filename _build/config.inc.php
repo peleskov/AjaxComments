@@ -11,22 +11,22 @@ if (!defined('MODX_CORE_PATH')) {
 return [
     'name' => 'AjaxComments',
     'name_lower' => 'ajaxcomments',
-    'version' => '2.0.0',
+    'version' => '1.0.0',
     'release' => 'pl',
     // Install package to site right after build
     'install' => true,
     // Which elements should be updated on package upgrade
     'update' => [
-        'chunks' => false,
+        'chunks' => true,
         'menus' => true,
-        'permission' => true,
-        'plugins' => true,
-        'policies' => true,
-        'policy_templates' => true,
+        'permission' => false,
+        'plugins' => false,
+        'policies' => false,
+        'policy_templates' => false,
         'resources' => false,
-        'settings' => false,
+        'settings' => true,
         'snippets' => true,
-        'templates' => false,
+        'templates' => true,
         'widgets' => false,
     ],
     // Which elements should be static by default

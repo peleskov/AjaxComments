@@ -2,32 +2,39 @@
 include_once 'setting.inc.php';
 
 $_lang['ajaxcomments'] = 'AjaxComments';
-$_lang['ajaxcomments_menu_desc'] = 'A sample Extra to develop from.';
-$_lang['ajaxcomments_intro_msg'] = 'You can select multiple items by holding Shift or Ctrl button.';
+$_lang['ajaxcomments_menu_desc'] = 'Комментарии, оценки, отзывы ';
+$_lang['ajaxcomments_intro_msg'] = 'Вы можете выделять сразу несколько строк при помощи Shift или Ctrl.';
 
-$_lang['ajaxcomments_items'] = 'Items';
-$_lang['ajaxcomments_item_id'] = 'Id';
-$_lang['ajaxcomments_item_name'] = 'Name';
-$_lang['ajaxcomments_item_description'] = 'Description';
-$_lang['ajaxcomments_item_active'] = 'Active';
+$_lang['ajaxcomments_branch'] = 'Ветка';
+$_lang['ajaxcomments_message'] = 'Сообщение';
+$_lang['ajaxcomments_branches'] = 'Ветки';
+$_lang['ajaxcomments_messages'] = 'Сообщения';
+$_lang['ajaxcomments_date'] = 'Дата';
+$_lang['ajaxcomments_author_name'] = 'Автор';
+$_lang['ajaxcomments_author_email'] = 'Email';
+$_lang['ajaxcomments_subject'] = 'Тема';
+$_lang['ajaxcomments_text'] = 'Текст';
+$_lang['ajaxcomments_rating'] = 'Оценка';
+$_lang['ajaxcomments_settings'] = 'Настройки';
 
-$_lang['ajaxcomments_item_create'] = 'Create Item';
-$_lang['ajaxcomments_item_update'] = 'Update Item';
-$_lang['ajaxcomments_item_enable'] = 'Enable Item';
-$_lang['ajaxcomments_items_enable'] = 'Enable Items';
-$_lang['ajaxcomments_item_disable'] = 'Disable Item';
-$_lang['ajaxcomments_items_disable'] = 'Disable Items';
-$_lang['ajaxcomments_item_remove'] = 'Remove Item';
-$_lang['ajaxcomments_items_remove'] = 'Remove Items';
-$_lang['ajaxcomments_item_remove_confirm'] = 'Are you sure you want to remove this Item?';
-$_lang['ajaxcomments_items_remove_confirm'] = 'Are you sure you want to remove this Items?';
 
-$_lang['ajaxcomments_item_err_name'] = 'You must specify the name of Item.';
-$_lang['ajaxcomments_item_err_ae'] = 'An Item already exists with that name.';
-$_lang['ajaxcomments_item_err_nf'] = 'Item not found.';
-$_lang['ajaxcomments_item_err_ns'] = 'Item not specified.';
-$_lang['ajaxcomments_item_err_remove'] = 'An error occurred while trying to remove the Item.';
-$_lang['ajaxcomments_item_err_save'] = 'An error occurred while trying to save the Item.';
+$_lang['ajaxcomments_active'] = 'Активный';
+$_lang['ajaxcomments_remove'] = 'Удалить';
+$_lang['ajaxcomments_remove_confirm'] = 'Подтвердите удаление.';
+$_lang['ajaxcomments_grid_actions'] = 'Действия';
 
-$_lang['ajaxcomments_grid_search'] = 'Search';
-$_lang['ajaxcomments_grid_actions'] = 'Actions';
+$_lang['ajaxcomments_create'] = 'Создать';
+$_lang['ajaxcomments_update'] = 'Изменить';
+$_lang['ajaxcomments_remove'] = 'Удалить';
+$_lang['ajaxcomments_enable'] = 'Вкл';
+$_lang['ajaxcomments_disable'] = 'Выкл';
+
+$_lang['ajaxcomments_id'] = 'id';
+$_lang['ajaxcomments_title'] = 'Заголовок';
+$_lang['ajaxcomments_branch_key'] = 'Ключ ветки';
+$_lang['ajaxcomments_target_id'] = 'id цели';
+
+$_lang['ajaxcomments_err_empty'] = 'Не указан ';
+$_lang['ajaxcomments_err_branch_nf'] = 'Ветка не найдена!';
+$_lang['ajaxcomments_err_in'] = 'Ошибка в поле ';
+$_lang['ajaxcomments_err_ae'] = ' с таким значеним уже есть.';

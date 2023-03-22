@@ -1,7 +1,7 @@
 --------------------
 AjaxComments
 --------------------
-Author: John Doe <john@doe.com>
+Author: Sergei Peleskov <info@s1temaker.ru>
 --------------------
 
-A basic Extra for MODx Revolution.
+A Comments Extra for MODx Revolution.

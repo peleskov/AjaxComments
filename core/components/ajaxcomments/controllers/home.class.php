@@ -56,8 +56,10 @@ class AjaxCommentsHomeManagerController extends modExtraManagerController
         $this->addJavascript($this->AjaxComments->config['jsUrl'] . 'mgr/ajaxcomments.js');
         $this->addJavascript($this->AjaxComments->config['jsUrl'] . 'mgr/misc/utils.js');
         $this->addJavascript($this->AjaxComments->config['jsUrl'] . 'mgr/misc/combo.js');
-        $this->addJavascript($this->AjaxComments->config['jsUrl'] . 'mgr/widgets/items.grid.js');
-        $this->addJavascript($this->AjaxComments->config['jsUrl'] . 'mgr/widgets/items.windows.js');
+        $this->addJavascript($this->AjaxComments->config['jsUrl'] . 'mgr/widgets/branches.grid.js');
+        $this->addJavascript($this->AjaxComments->config['jsUrl'] . 'mgr/widgets/branches.windows.js');
+        $this->addJavascript($this->AjaxComments->config['jsUrl'] . 'mgr/widgets/messages.grid.js');
+        $this->addJavascript($this->AjaxComments->config['jsUrl'] . 'mgr/widgets/messages.windows.js');
         $this->addJavascript($this->AjaxComments->config['jsUrl'] . 'mgr/widgets/home.panel.js');
         $this->addJavascript($this->AjaxComments->config['jsUrl'] . 'mgr/sections/home.js');
 

@@ -193,10 +193,11 @@ class AjaxCommentsPackage
                 $menu = $this->modx->newObject('modMenu');
                 $menu->fromArray(array_merge([
                     'text' => $name,
-                    'parent' => 'components',
+                    /*'parent' => 'components',*/
+                    'parent' => 'topnav',
                     'namespace' => $this->config['name_lower'],
                     'icon' => '',
-                    'menuindex' => 0,
+                    'menuindex' => 20,
                     'params' => '',
                     'handler' => '',
                 ], $data), '', true, true);

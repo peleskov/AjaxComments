@@ -3,6 +3,7 @@
 $xpdo_meta_map = array (
   'xPDOSimpleObject' => 
   array (
-    0 => 'AjaxCommentsItem',
+    0 => 'acBranch',
+    1 => 'acMessage',
   ),
 );

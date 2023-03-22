@@ -3,30 +3,38 @@ AjaxComments.panel.Home = function (config) {
     Ext.apply(config, {
         baseCls: 'modx-formpanel',
         layout: 'anchor',
-        /*
-         stateful: true,
-         stateId: 'ajaxcomments-panel-home',
-         stateEvents: ['tabchange'],
-         getState:function() {return {activeTab:this.items.indexOf(this.getActiveTab())};},
-         */
+        stateful: true,
+        stateId: 'ajaxcomments-panel-home',
+        stateEvents: ['tabchange'],
+        getState: function () { return { activeTab: this.items.indexOf(this.getActiveTab()) }; },
         hideMode: 'offsets',
         items: [{
             html: '<h2>' + _('ajaxcomments') + '</h2>',
             cls: '',
-            style: {margin: '15px 0'}
+            style: { margin: '15px 0' }
         }, {
             xtype: 'modx-tabs',
-            defaults: {border: false, autoHeight: true},
+            defaults: { border: false, autoHeight: true },
             border: true,
             hideMode: 'offsets',
             items: [{
-                title: _('ajaxcomments_items'),
+                title: _('ajaxcomments_branches'),
                 layout: 'anchor',
                 items: [{
                     html: _('ajaxcomments_intro_msg'),
                     cls: 'panel-desc',
                 }, {
-                    xtype: 'ajaxcomments-grid-items',
+                    xtype: 'ajaxcomments-grid-branches',
+                    cls: 'main-wrapper',
+                }]
+            }, {
+                title: _('ajaxcomments_messages'),
+                layout: 'anchor',
+                items: [{
+                    html: _('ajaxcomments_intro_msg'),
+                    cls: 'panel-desc',
+                }, {
+                    xtype: 'ajaxcomments-grid-messages',
                     cls: 'main-wrapper',
                 }]
             }]
