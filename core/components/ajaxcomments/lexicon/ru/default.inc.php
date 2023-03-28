@@ -15,6 +15,7 @@ $_lang['ajaxcomments_author_email'] = 'Email';
 $_lang['ajaxcomments_subject'] = 'Тема';
 $_lang['ajaxcomments_text'] = 'Текст';
 $_lang['ajaxcomments_rating'] = 'Оценка';
+$_lang['ajaxcomments_rating_wilson'] = 'Оценка Wilson';
 $_lang['ajaxcomments_settings'] = 'Настройки';
 
 
@@ -38,3 +39,7 @@ $_lang['ajaxcomments_err_empty'] = 'Не указан ';
 $_lang['ajaxcomments_err_branch_nf'] = 'Ветка не найдена!';
 $_lang['ajaxcomments_err_in'] = 'Ошибка в поле ';
 $_lang['ajaxcomments_err_ae'] = ' с таким значеним уже есть.';
+$_lang['ajaxcomments_err_ne'] = 'Это поле не может быть пустым.';
+
+$_lang['ajaxcomments_err_ns'] = 'Не могу сохранить объект: ';
+$_lang['ajaxcomments_err_nc'] = 'Не могу создать объект: ';

@@ -182,7 +182,7 @@ Ext.extend(AjaxComments.grid.Branches, MODx.grid.Grid, {
     },
 
     getFields: function () {
-        return ['id', 'title', 'branch_key', 'target_id', 'active', 'extended', 'actions'];
+        return ['id', 'title', 'branch_key', 'target_id', 'active', 'rating', 'rating_wilson', 'extended', 'actions'];
     },
 
     getColumns: function () {
@@ -206,6 +206,16 @@ Ext.extend(AjaxComments.grid.Branches, MODx.grid.Grid, {
             dataIndex: 'title',
             sortable: true,
             width: 200,
+        }, {
+            header: _('ajaxcomments_rating'),
+            dataIndex: 'rating',
+            sortable: true,
+            width: 50,
+        }, {
+            header: _('ajaxcomments_rating_wilson'),
+            dataIndex: 'rating_wilson',
+            sortable: true,
+            width: 50,
         }, {
             header: _('ajaxcomments_active'),
             dataIndex: 'active',

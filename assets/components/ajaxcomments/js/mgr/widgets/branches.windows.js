@@ -16,7 +16,7 @@ AjaxComments.window.CreateBranch = function (config) {
             }, scope: this
         }]
     });
-    AjaxComments.window.CreateItem.superclass.constructor.call(this, config);
+    AjaxComments.window.CreateBranch.superclass.constructor.call(this, config);
 };
 Ext.extend(AjaxComments.window.CreateBranch, MODx.Window, {
 

@@ -3,15 +3,15 @@
 return [
     'AjaxComments' => [
         'file' => 'ajaxcomments',
-        'description' => 'AjaxComments snippet to list items',
+        'description' => 'AjaxComments snippet',
         'properties' => [
             'tpl' => [
                 'type' => 'textfield',
-                'value' => 'tpl.AjaxComments.item',
+                'value' => 'tpl.ajaxcomments.row',
             ],
             'sortby' => [
                 'type' => 'textfield',
-                'value' => 'name',
+                'value' => 'created',
             ],
             'sortdir' => [
                 'type' => 'list',
@@ -19,7 +19,7 @@ return [
                     ['text' => 'ASC', 'value' => 'ASC'],
                     ['text' => 'DESC', 'value' => 'DESC'],
                 ],
-                'value' => 'ASC',
+                'value' => 'DESC',
             ],
             'limit' => [
                 'type' => 'numberfield',
@@ -28,10 +28,6 @@ return [
             'outputSeparator' => [
                 'type' => 'textfield',
                 'value' => "\n",
-            ],
-            'toPlaceholder' => [
-                'type' => 'combo-boolean',
-                'value' => false,
             ],
         ],
     ],

@@ -53,6 +53,14 @@ class AjaxCommentsMessageCreateProcessor extends modObjectCreateProcessor
         return parent::beforeSet();
     }
 
+    public function afterSave() {
+        $rating = (int)$this->getProperty('rating');
+        if ($rating > 0) {
+            $this->modx->log(1, 'tut');
+        } 
+        return parent::afterSave();
+    }
+
 }
 
 return 'AjaxCommentsMessageCreateProcessor';

@@ -15,6 +15,8 @@ $xpdo_meta_map['acBranch']= array (
     'title' => '',
     'active' => 0,
     'extended' => NULL,
+    'rating' => 0.0,
+    'rating_wilson' => 0.0,
   ),
   'fieldMeta' => 
   array (
@@ -55,6 +57,22 @@ $xpdo_meta_map['acBranch']= array (
       'dbtype' => 'text',
       'phptype' => 'json',
       'null' => true,
+    ),
+    'rating' => 
+    array (
+      'dbtype' => 'decimal',
+      'precision' => '12,2',
+      'phptype' => 'float',
+      'null' => false,
+      'default' => 0.0,
+    ),
+    'rating_wilson' => 
+    array (
+      'dbtype' => 'decimal',
+      'precision' => '12,2',
+      'phptype' => 'float',
+      'null' => false,
+      'default' => 0.0,
     ),
   ),
   'indexes' => 

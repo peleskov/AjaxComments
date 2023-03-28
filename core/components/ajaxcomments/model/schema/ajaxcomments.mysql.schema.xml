@@ -7,6 +7,9 @@
         <field key="title" dbtype="varchar" precision="255" phptype="string" null="false" default="" />
         <field key="active" dbtype="int" precision="1" phptype="integer" null="false" default="0" />
         <field key="extended" dbtype="text" phptype="json" null="true" />
+        <field key="rating" dbtype="decimal" precision="12,2" phptype="float" null="false" default="0" />
+        <field key="rating_wilson" dbtype="decimal" precision="12,2" phptype="float" null="false" default="0" />
+
 
         <index alias="branch_key" name="branch_key" primary="false" unique="true" type="BTREE">
             <column key="branch_key" length="" collation="A" null="false" />

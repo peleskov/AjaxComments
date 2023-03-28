@@ -1,12 +1,28 @@
 <?php
 
 return [
-    'tpl.AjaxComments.item' => [
-        'file' => 'item',
+    'SAMPLE_COMMENTS' => [
+        'file' => 'ajaxcomments.sample.comments',
         'description' => '',
     ],
-    'tpl.AjaxComments.office' => [
-        'file' => 'office',
+    'AjaxComments.message.form' => [
+        'file' => 'ajaxcomments.message.form',
+        'description' => '',
+    ],
+    'AjaxComments.message.form.answer' => [
+        'file' => 'ajaxcomments.message.form.answer',
+        'description' => '',
+    ],
+    'AjaxComments.coments.wrapper' => [
+        'file' => 'ajaxcomments.coments.wrapper',
+        'description' => '',
+    ],
+    'AjaxComments.coments.row' => [
+        'file' => 'ajaxcomments.coments.row',
+        'description' => '',
+    ],
+    'AjaxComments.rating' => [
+        'file' => 'ajaxcomments.rating',
         'description' => '',
     ],
 ];
